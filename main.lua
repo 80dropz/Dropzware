@@ -99,7 +99,7 @@ function Library:Create(xHubName,xGameName)
 
     Filler.Name = "Filler"
     Filler.Parent = Sidebar
-    Filler.BackgroundColor3 = Color3.fromRGB(40, 42, 60)
+    Filler.BackgroundColor3 = Color3.fromRGB(115, 0, 230)
     Filler.BorderSizePixel = 0
     Filler.Position = UDim2.new(0.930769145, 0, 0, 0)
     Filler.Size = UDim2.new(0, 9, 0, 370)
@@ -118,7 +118,7 @@ function Library:Create(xHubName,xGameName)
 
     Line.Name = "Line"
     Line.Parent = Sidebar
-    Line.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
+    Line.BackgroundColor3 = Color3.fromRGB(115, 0, 230)
     Line.BorderSizePixel = 0
     Line.Position = UDim2.new(0.0642857179, 0, 0.148648649, 0)
     Line.Size = UDim2.new(0, 121, 0, 2)
@@ -139,7 +139,7 @@ function Library:Create(xHubName,xGameName)
 
     SideLine.Name = "SideLine"
     SideLine.Parent = Sidebar
-    SideLine.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+    SideLine.BackgroundColor3 = Color3.fromRGB(115, 0, 230)
     SideLine.BorderSizePixel = 0
     SideLine.Position = UDim2.new(1, 0, 0, 0)
     SideLine.Size = UDim2.new(0, 2, 0, 370)
@@ -153,7 +153,7 @@ function Library:Create(xHubName,xGameName)
     GameName.Size = UDim2.new(0, 141, 0, 25)
     GameName.Font = Enum.Font.Gotham
     GameName.Text = xGameName
-    GameName.TextColor3 = Color3.fromRGB(190, 190, 190)
+    GameName.TextColor3 = Color3.fromRGB(115, 0, 230)
     GameName.TextSize = 14.000
 
     TabHolder.Name = "TabHolder"
