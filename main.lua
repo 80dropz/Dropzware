@@ -1,4 +1,3 @@
-
 local Library = {}
 -- Random UI Name
 local LibraryName = tostring(math.random(100000,200000))..tostring(math.random(100000,200000))..tostring(math.random(100000,200000))
@@ -55,7 +54,7 @@ end
 
 function Library:Create(xHubName,xGameName)
     local xHubName = xHubName or "UI Library"
-    local xGameName = xGameName or "By 82NM"
+    local xGameName = xGameName or "By Mapple#3045"
     local ScreenGui = Instance.new("ScreenGui")
     local Main = Instance.new("Frame")
     local MainCorner = Instance.new("UICorner")
@@ -81,7 +80,7 @@ function Library:Create(xHubName,xGameName)
 
     Main.Name = "Main"
     Main.Parent = ScreenGui
-    Main.BackgroundColor3 = Color3.fromRGB(115, 0, 230)
+    Main.BackgroundColor3 = Color3.fromRGB(31, 30, 46)
     Main.Position = UDim2.new(0.278277636, 0, 0.281287253, 0)
     Main.Size = UDim2.new(0, 580, 0, 370)
 
@@ -91,7 +90,7 @@ function Library:Create(xHubName,xGameName)
 
     Sidebar.Name = "Sidebar"
     Sidebar.Parent = Main
-    Sidebar.BackgroundColor3 = Color3.fromRGB(115, 0, 230)
+    Sidebar.BackgroundColor3 = Color3.fromRGB(40, 42, 60)
     Sidebar.Size = UDim2.new(0, 140, 0, 370)
 
     SidebarCorner.Name = "SidebarCorner"
@@ -99,7 +98,7 @@ function Library:Create(xHubName,xGameName)
 
     Filler.Name = "Filler"
     Filler.Parent = Sidebar
-    Filler.BackgroundColor3 = Color3.fromRGB(115, 0, 230)
+    Filler.BackgroundColor3 = Color3.fromRGB(40, 42, 60)
     Filler.BorderSizePixel = 0
     Filler.Position = UDim2.new(0.930769145, 0, 0, 0)
     Filler.Size = UDim2.new(0, 9, 0, 370)
@@ -118,7 +117,7 @@ function Library:Create(xHubName,xGameName)
 
     Line.Name = "Line"
     Line.Parent = Sidebar
-    Line.BackgroundColor3 = Color3.fromRGB(115, 0, 230)
+    Line.BackgroundColor3 = Color3.fromRGB(75, 75, 75)
     Line.BorderSizePixel = 0
     Line.Position = UDim2.new(0.0642857179, 0, 0.148648649, 0)
     Line.Size = UDim2.new(0, 121, 0, 2)
@@ -139,7 +138,7 @@ function Library:Create(xHubName,xGameName)
 
     SideLine.Name = "SideLine"
     SideLine.Parent = Sidebar
-    SideLine.BackgroundColor3 = Color3.fromRGB(115, 0, 230)
+    SideLine.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
     SideLine.BorderSizePixel = 0
     SideLine.Position = UDim2.new(1, 0, 0, 0)
     SideLine.Size = UDim2.new(0, 2, 0, 370)
@@ -153,7 +152,7 @@ function Library:Create(xHubName,xGameName)
     GameName.Size = UDim2.new(0, 141, 0, 25)
     GameName.Font = Enum.Font.Gotham
     GameName.Text = xGameName
-    GameName.TextColor3 = Color3.fromRGB(115, 0, 230)
+    GameName.TextColor3 = Color3.fromRGB(190, 190, 190)
     GameName.TextSize = 14.000
 
     TabHolder.Name = "TabHolder"
@@ -200,7 +199,7 @@ function Library:Create(xHubName,xGameName)
 
         TabButton.Name = "TabButton"
         TabButton.Parent = ActualSide
-        TabButton.BackgroundColor3 = Color3.fromRGB(115, 0, 230)
+        TabButton.BackgroundColor3 = Color3.fromRGB(55, 74, 251)
         TabButton.BorderSizePixel = 0
         TabButton.Size = UDim2.new(0, 139, 0, 35)
         TabButton.Font = Enum.Font.Gotham
@@ -214,7 +213,7 @@ function Library:Create(xHubName,xGameName)
         Tab.ChildRemoved:Connect(Size)
 
         if xVisible then 
-            TabButton.BackgroundColor3 = Color3.fromRGB(115, 0, 230)
+            TabButton.BackgroundColor3 = Color3.fromRGB(55, 74, 251)
             TabButton.TextColor3 = Color3.fromRGB(255, 255, 255)
         else 
             TabButton.BackgroundColor3 = Color3.fromRGB(40, 42, 60)
