@@ -200,7 +200,7 @@ function Library:Create(xHubName,xGameName)
 
         TabButton.Name = "TabButton"
         TabButton.Parent = ActualSide
-        TabButton.BackgroundColor3 = Color3.fromRGB(55, 74, 251)
+        TabButton.BackgroundColor3 = Color3.fromRGB(115, 0, 230)
         TabButton.BorderSizePixel = 0
         TabButton.Size = UDim2.new(0, 139, 0, 35)
         TabButton.Font = Enum.Font.Gotham
@@ -214,7 +214,7 @@ function Library:Create(xHubName,xGameName)
         Tab.ChildRemoved:Connect(Size)
 
         if xVisible then 
-            TabButton.BackgroundColor3 = Color3.fromRGB(55, 74, 251)
+            TabButton.BackgroundColor3 = Color3.fromRGB(115, 0, 230)
             TabButton.TextColor3 = Color3.fromRGB(255, 255, 255)
         else 
             TabButton.BackgroundColor3 = Color3.fromRGB(40, 42, 60)
